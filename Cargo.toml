@@ -3,6 +3,7 @@ resolver = "3"
 members = [
     "01-hello-world",
     "02-hello-bevy"
-]
+, "03-bevy-egui"]
 [workspace.dependencies]
 bevy = { version = "0.16.0" }
+bevy_egui = "0.34.1"
