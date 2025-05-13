@@ -1,7 +1,8 @@
 [workspace]
 resolver = "3"
 members = [
-    "01-hello-world"
+    "01-hello-world",
+    "02-hello-bevy"
 ]
 [workspace.dependencies]
-bevy={version = "0.16.0"}
+bevy = { version = "0.16.0" }
